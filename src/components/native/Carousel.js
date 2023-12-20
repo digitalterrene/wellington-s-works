@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TestimonialWrapper from "./TestimonialWrapper";
 import { george, nicole, philip } from "@/assets/testimonials";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 export default function Carousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -20,24 +21,26 @@ export default function Carousel() {
   };
 
   return (
-    <div className="flex mt-20  mx-auto w-full">
+    <div className=" flex mt-20  mx-auto w-full">
       <div className="flex items-center">
         <button
-          className="hover:border-[#494F5D] border w-28 py-2 px-4 border-transparent"
+          className="hover:border-[#494F5D] border lg:w-28 py-2 px-4 border-transparent"
           onClick={prevSlide}
         >
-          Previous
+          <FaArrowLeft className="lg:hidden block" />
+          <p className="hidden lg:block">Previous</p>
         </button>
       </div>
-      <div className="px-60 w-full   flex justify-center">
+      <div className="lg:px-60 w-full   flex justify-center">
         {slides[currentSlide]}
       </div>{" "}
       <div className="flex items-center">
         <button
-          className="hover:border-[#494F5D] border w-28 py-2 px-4 border-transparent"
+          className="hover:border-[#494F5D] border lg:w-28 py-2 px-4 border-transparent"
           onClick={nextSlide}
         >
-          Next
+          <FaArrowRight className="lg:hidden block" />
+          <p className="hidden lg:block">Next</p>
         </button>
       </div>
     </div>

@@ -14,23 +14,23 @@ export default function RootPage() {
           <p className="text-white font-bold  lg:text-6xl">
             What Our Manager Often Say
           </p>
-          <button className="text-white hover:bg-white p-2 hover:text-[#1C2335] mt-20 border w-fit lg:p-4">
+          <button className="text-white hover:bg-white p-2 hover:text-[#1C2335] mt-6 lg:mt-20 border w-fit lg:p-4">
             Meet the Manager
           </button>
         </div>
         <div style={{ position: "relative" }}>
           <img
             src="https://img.freepik.com/free-photo/cheerful-young-man-dressed-shirt-wearing-hat_171337-17093.jpg?size=626&ext=jpg&ga=GA1.1.1135384207.1703006759&semt=ais"
-            className="ml-auto objecte cente object-cover rounded-full w-60 h-60"
+            className="ml-auto objecte cente object-cover rounded-full w-24 lg:w-60 h-24 lg:h-60"
           />
           <div className="lg:w-[500px] w-[320px] h-fit lg:h-52 z-50 lg:mr-40 relative rounded-xl text-white lg:-mt-32 bg-white/20">
-            <div className="relative h-full">
+            <div className="relative ml-6 lg:ml-0 h-full">
               <ImQuotesLeft
                 width="16"
                 height="16"
-                className="absolute -top-6 -start-8 h-16 w-16 text-gray-100 dark:text-gray-700"
+                className="absolute -top-8 lg:-top-6 -start-8 h-16 w-16 text-gray-100 dark:text-gray-700"
               />
-              <div className="relative w-11/12 z-10">
+              <div className="relative lg:w-11/12 z-10">
                 <p className="text-white p-8 pr-12 text-xs lg:text-xl dark:text-white">
                   <em>
                     It's not about speeding up to cut costs at the expence of a
@@ -58,7 +58,7 @@ export default function RootPage() {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}
-        className=" h-[900px] "
+        className=" h-[470px] mt-10  lg:mt-0 lg:h-[900px] "
       >
         <div className="lg:h-[800px] items-center sticky top-32 gap-10 lg:flex justify-between  mb-72 p-10 lg:p-20">
           <img src="https://img.freepik.com/free-photo/medium-shot-smiley-man-posing-with-helmet_23-2148920601.jpg?size=626&ext=jpg&ga=GA1.1.1135384207.1703006759&semt=ais" />
@@ -85,12 +85,12 @@ export default function RootPage() {
             </p>
           </div>
         </div>
-        <div className="-mt-60 bg-gray-50 max-w-5xl mx-auto h-[660px] border">
-          <p className="text-lg lg:text-6xl font-bold text-center p-10">
+        <div className="-mt-60 bg-gray-50  lg:max-w-5xl mx-auto h-fit lg:h-[660px] border">
+          <p className="text-lg lg:text-6xl font-bold text-center p-4 lg:p-10">
             Testimonials
           </p>
         </div>
-        <div className=" -mt-[560px] h-full  w-full lg:px-20">
+        <div className=" lg:-mt-[560px] -mt-20  h-full  w-full lg:px-20">
           <Carousel />
         </div>
         <OurClients />
