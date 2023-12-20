@@ -13,8 +13,8 @@ export default function Navbar() {
             className="flex w-96 gap-2 items-center text-xl font-semibold text-white dark:text-gray-800"
             href="/"
           >
-            <MdRoofing className="font-bold text-6xl" />
-            <p className="text-white w-fit text-3xl">Wellington's Works</p>
+            <MdRoofing className="font-bold text-5xl lg:text-6xl" />
+            <p className="text-white w-fit lg:text-3xl">Wellington's Works</p>
           </a>
           <div className="sm:hidden">
             <button
