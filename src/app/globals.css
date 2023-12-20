@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Hide scrollbar for Chrome, Safari, and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+/* Note: Firefox doesn't support hiding the scrollbar thumb directly */
+/* This will hide the scrollbar completely in Firefox */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+/* Hide scrollbar for IE, Edge */
+/* Note: IE and Edge use the -ms- prefix */
+body {
+  -ms-overflow-style: none;
+}
