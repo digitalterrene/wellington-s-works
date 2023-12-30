@@ -5,7 +5,7 @@ import afforda from "@/assets/images/afforda.png";
 export default function ReasonsWhyUs() {
   return (
     <div className=" w-full">
-      <div className="lg:flex lg:p-40 p-4 gap-8  mb-10 justify-between">
+      <div className="lg:flex lg:p-40 p-4 gap-8  items-center  justify-between">
         <div className="lg:w-2/3 space-y-3 mb-4">
           <p className="lg:text-5xl text-2xl font-bold">
             This is the reason why many people use our services
@@ -31,7 +31,7 @@ export default function ReasonsWhyUs() {
           </div>
         </div>
       </div>
-      <div className="lg:grid   lg:px-20  mt-10 gap-4 grid-cols-2">
+      <div className="lg:grid   lg:px-20  gap-4 grid-cols-2">
         <div className="flex bg-[#163C59] h-fit   text-white w-full">
           <div className="w-1/2 space-y-3">
             <div className="px-6 py-2 h-fit w-fit bg-red-900 text-3xl flex items-center justify-center font-bold text-white">

@@ -93,24 +93,17 @@ export default function RootPage() {
         <div className=" lg:-mt-[560px] -mt-20  h-full  w-full lg:px-20">
           <Carousel />
         </div>
-        <OurClients />
-        <div className="w-full lg:flex justify-between bg-[#F5F4F9]">
-          <div className="lg:p-32 p-8">
-            <p className=" lg:text-3xl font-bold">
-              You have a
-              <span className="text-blue-600 lg:text-7xl p-2">
+        <div className="lg:-mt-96">
+          <OurClients />
+        </div>
+        <div className="w-full lg:flex justify-between bg-[#163C59] text-white">
+          <div className="lg:p-32 flex  p-8">
+            <div className="lg:space-y-4 flex gap-1  items-center lg:flex-col">
+              <p className=" lg:text-3xl font-bold">Do you have a </p>
+              <p className="text-blue-600 lg:text-7xl font-bold">
                 Construction
-              </span>
-              problem?
-            </p>
-            <div className="flex items-center">
-              <img
-                src="https://cdn-icons-png.flaticon.com/128/64/64818.png"
-                className=" hidden lg:block h-32 "
-              />
-              <div className="lgmt-32 lg:ml-20  ml-auto ">
-                <img src={dizzy.src} className="w-20 " />
-              </div>
+              </p>
+              <p className=" lg:text-3xl font-bold">problem ?</p>
             </div>
           </div>
           <img
