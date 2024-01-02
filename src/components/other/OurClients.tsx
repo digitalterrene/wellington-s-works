@@ -6,7 +6,7 @@ export default function OurClients() {
       {" "}
       <div className="max-w-[85rem] px-4  py-4 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto text-center mb-6">
-          <h2 className="text-gray-600 dark:text-gray-400 font-bold">
+          <h2 className="  text-2xl dark:text-gray-400 font-bold">
             Our Partners
           </h2>
         </div>

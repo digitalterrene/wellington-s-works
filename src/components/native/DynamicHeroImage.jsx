@@ -51,15 +51,15 @@ export default function DynamicHeroImage() {
       </div>
       <div className=" lg:hidden grid grid-cols-3 ">
         <img
-          className="h-60 object-cover object-center"
+          className="h-60 w-full object-cover object-center"
           src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704135675/digital_painting_agency/paving/IMG-20231231-WA0015_slyiej.jpg"
         />
         <img
-          className="h-60 object-cover object-center"
+          className="h-60 w-full object-cover object-center"
           src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704135674/digital_painting_agency/paving/IMG-20231231-WA0011_h3roen.jpg"
         />
         <img
-          className="h-60 object-cover object-center"
+          className="h-60 w-full object-cover object-center"
           src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704135777/digital_painting_agency/paving/IMG-20231231-WA0131_d01ou9.jpg"
         />
       </div>

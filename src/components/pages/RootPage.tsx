@@ -9,9 +9,9 @@ import Footer from "../native/Footer";
 export default function RootPage() {
   return (
     <div className="">
-      <div className="lg:p-20 p-4 lg:flex justify-between w-full bg-[#1C2335]">
+      <div className="lg:p-20 p-4 py-10 lg:flex justify-between w-full bg-[#1C2335]">
         <div>
-          <p className="text-white font-bold  lg:text-6xl">
+          <p className="text-white font-bold  text2xl  lg:text-6xl">
             What Our Manager Often Say
           </p>
           <button className="text-white hover:bg-white p-2 hover:text-[#1C2335] mt-6 lg:mt-20 border w-fit lg:p-4">
@@ -23,7 +23,7 @@ export default function RootPage() {
             src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704137248/digital_painting_agency/paving/IMG-20231231-WA0241_pejfnj.jpg"
             className="ml-auto object-top object-cover rounded-full w-24 lg:w-60 h-24 lg:h-60"
           />
-          <div className="lg:w-[500px] w-[320px] h-fit lg:h-52 z-50 lg:mr-40 relative rounded-xl text-white lg:-mt-32 bg-white/20">
+          <div className="lg:w-[500px] w-[320px] md:ml-auto   h-fit lg:h-52 z-50  md:mr-20 lg:mr-40 relative rounded-xl text-white md:-mt-10 lg:-mt-32 bg-white/20">
             <div className="relative ml-6 lg:ml-0 h-full">
               <ImQuotesLeft
                 width="16"
@@ -60,7 +60,7 @@ export default function RootPage() {
         }}
         className=" h-[470px] mt-10  lg:mt-0 lg:h-[900px] "
       >
-        <div className="lg:h-[800px] items-center sticky top-32 gap-10 lg:flex justify-between  mb-72 p-10 lg:p-20">
+        <div className="lg:h-[800px] items-center sticky top-32 gap-10 lg:flex justify-between   mb-40 p-10 lg:p-20">
           <img
             className="w-[800px] object-cover object-center h-[470px] lg:h-[600px]"
             src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704135842/digital_painting_agency/paving/IMG-20231231-WA0218_an8m2m.jpg"
@@ -88,15 +88,15 @@ export default function RootPage() {
             </p>
           </div>
         </div>
-        <div className="-mt-60 bg-gray-50  lg:max-w-5xl mx-auto h-fit lg:h-[660px] border">
+        {/* <div className="-mt-60 bg-gray-50  lg:max-w-5xl mx-auto h-fit lg:h-[660px] border">
           <p className="text-lg lg:text-6xl font-bold text-center p-4 lg:p-10">
             Testimonials
           </p>
-        </div>
-        <div className=" lg:-mt-[560px] -mt-20  h-full  w-full lg:px-20">
+        </div> */}
+        {/* <div className=" lg:-mt-[560px] -mt-20  h-full  w-full lg:px-20">
           <Carousel />
-        </div>
-        <div className="lg:-mt-96">
+        </div> */}
+        <div className="lgd:-mdt-96">
           <OurClients />
         </div>
         <div className="w-full lg:flex justify-between bg-[#163C59] text-white">
@@ -110,7 +110,7 @@ export default function RootPage() {
             </div>
           </div>
           <img
-            className=" object-cover object-center"
+            className="md:w-full w-full object-cover object-center"
             src="https://img.freepik.com/free-photo/woman-being-fed-up-taking-care-problems-loaded-her-head-holding-hand-hair-pursing-lips-with-sad-annoyed-smile-holding-arm-waist-being-tired-bothered-with-troubles_176420-23313.jpg?size=626&ext=jpg&ga=GA1.1.1135384207.1703006759&semt=sph"
           />
         </div>

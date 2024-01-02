@@ -16,7 +16,7 @@ export default function Navbar() {
         className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
         aria-label="Global"
       >
-        <div className="flex items-center justify-between">
+        <div className="flex w-full items-center justify-between">
           <a
             className="flex lg:w-96 gap-3 items-center text-xl font-semibold text-white dark:text-gray-800"
             href="/"
@@ -38,7 +38,7 @@ export default function Navbar() {
         </div>
         <div
           id="navbar-dark"
-          className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
+          className="hs-collapse hidden md:hidden  lg:block overflow-hidden transition-all duration-300 basis-full grow sm:block"
         >
           <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
             <a
