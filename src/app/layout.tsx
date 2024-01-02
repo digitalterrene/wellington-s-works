@@ -22,37 +22,34 @@ interface Metadata {
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Wellington's Works",
-  description: `Explore my range of construction services designed to 
-                bring your vision to life. From building and drywalling to ceilings and tiling, 
-                i am committed to providing the best quality service. Experience craftsmanship,
-                attention to detail, and a dedication to excellence with Smanga the Builder.`,
+  title: "Digital Painting Agency",
+  description: `Discover unmatched construction expertise in Johannesburg with Digital Painting Agency. 
+                Specializing in precise painting, paving, plumbing, and more. Elevate your spaces with our craftsmanship!`,
   keywords: [
-    "construction services",
-    "quality craftsmanship",
-    "building",
-    "drywalling",
-    "ceilings",
-    "tiling",
-    "roofing",
-    "painting",
-    "builders in Johannesburg,Gauteng",
-    "tilers in Johannesburg,Gauteng",
-    "painters in Johannesburg,Gauteng",
+   "Construction experts",
+  "Painting specialists",
+  "Johannesburg builders",
+  "Paving services",
+  "Plumbing solutions",
+  "Built-in cabinets",
+  "Tennis court revamps",
+  "Precision craftsmanship",
+  "Residential construction",
+  "Digital Painting Agency"
   ],
   image:
-    "https://smanga-the-builder.vercel.app/_next/static/media/smanga.d036c194.png",
-  url: "https://smanga-the-builder.vercel.app/",
-  siteName: "Smanga the Builder",
+    "https://res.cloudinary.com/dq4ceizj6/image/upload/v1704137208/digital_painting_agency/paving/IMG-20231231-WA0235_dt3rtm.jpg",
+  url: "https://dpa.vertueal.com",
+  siteName: "Digital Painting Agency",
   type: "website",
   locale: "en_US",
-  author: "Wellington's Works",
-  twitterHandle: "@yourTwitterHandle",
+  author: "Larry Codes",
+  twitterHandle: "@dpa_vertueal",
   social: {
-    twitter: "https://twitter.com/yourTwitterHandle",
-    facebook: "https://www.facebook.com/yourFacebookPage",
-    instagram: "https://www.instagram.com/yourInstagramPage",
-    linkedin: "https://www.linkedin.com/in/yourLinkedinProfile",
+    twitter: "https://twitter.com/dpa_vertueal",
+    facebook: "https://www.facebook.com/dpa_vertueal",
+    instagram: "https://www.instagram.com/dpa_vertueal",
+    linkedin: "https://www.linkedin.com/in/dpa_vertueal",
   },
 };
 
