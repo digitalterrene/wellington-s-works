@@ -28,7 +28,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/components/native/DynamicHeroImage.jsx",
-    "src/components/native/Navbar.tsx",
+    "src/components/native/Navbar.jsx",
     "src/components/native/TestimonialWrapper.jsx",
     "src/app/components/native/Carousel.js",
     "src/app/components/native/Footer.jsx"

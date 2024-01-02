@@ -35,8 +35,9 @@ export default function Team() {
             </div>
 
             <p className="mt-3 text-gray-500">
-              I am an ambitious workaholic, but apart from that, pretty simple
-              person.
+              As the painter on our team, my passion lies in transforming spaces
+              with vibrant colors and impeccable finishes, ensuring each stroke
+              adds a touch of artistic elegance to your surroundings.
             </p>
 
             <div className="mt-3 space-x-1">
@@ -72,15 +73,15 @@ export default function Team() {
                 <h3 className="font-medium text-gray-800 dark:text-gray-200">
                   Washington
                 </h3>
-                <p className="text-xs uppercase text-gray-500">
-                  UI/UX Designer
-                </p>
+                <p className="text-xs uppercase text-gray-500">Carpenter</p>
               </div>
             </div>
 
             <p className="mt-3 text-gray-500">
-              I am an ambitious workaholic, but apart from that, pretty simple
-              person.
+              Crafting with precision and skill, I am the carpenter on our team.
+              From custom furniture pieces to intricate woodwork, my goal is to
+              bring your vision to life, adding a touch of warmth and
+              sophistication to your home or project.
             </p>
 
             <div className="mt-3 space-x-1">
@@ -121,8 +122,10 @@ export default function Team() {
             </div>
 
             <p className="mt-3 text-gray-500">
-              I am an ambitious workaholic, but apart from that, pretty simple
-              person.
+              I am the plumber on our team, dedicated to ensuring the smooth
+              flow of water and efficient plumbing systems. With attention to
+              detail and a focus on functionality, I contribute to the overall
+              comfort and functionality of your space.
             </p>
 
             <div className="mt-3 space-x-1">
@@ -163,8 +166,10 @@ export default function Team() {
             </div>
 
             <p className="mt-3 text-gray-500">
-              I am an ambitious workaholic, but apart from that, pretty simple
-              person.
+              I take pride in being the builder of our team, dedicated to
+              constructing sturdy foundations and structures that stand the test
+              of time, with a keen eye for detail and a commitment to quality
+              craftsmanship.
             </p>
 
             <div className="mt-3 space-x-1">
@@ -205,8 +210,9 @@ export default function Team() {
             </div>
 
             <p className="mt-3 text-gray-500">
-              I am an ambitious workaholic, but apart from that, pretty simple
-              person.
+              As the tiler on our team, my expertise lies in creating seamless
+              and visually stunning surfaces, meticulously placing each tile to
+              bring both functionality and aesthetic appeal to your spaces.
             </p>
 
             <div className="mt-3 space-x-1">

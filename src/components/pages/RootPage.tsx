@@ -1,6 +1,6 @@
 "use client";
 import { ImQuotesLeft } from "react-icons/im";
-import React from "react";
+import React, { useEffect } from "react";
 import Carousel from "../native/Carousel";
 import OurClients from "../other/OurClients";
 import dizzy from "@/assets/icons/dizzy.png";
@@ -20,8 +20,8 @@ export default function RootPage() {
         </div>
         <div style={{ position: "relative" }}>
           <img
-            src="https://img.freepik.com/free-photo/cheerful-young-man-dressed-shirt-wearing-hat_171337-17093.jpg?size=626&ext=jpg&ga=GA1.1.1135384207.1703006759&semt=ais"
-            className="ml-auto objecte cente object-cover rounded-full w-24 lg:w-60 h-24 lg:h-60"
+            src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704137248/digital_painting_agency/paving/IMG-20231231-WA0241_pejfnj.jpg"
+            className="ml-auto object-top object-cover rounded-full w-24 lg:w-60 h-24 lg:h-60"
           />
           <div className="lg:w-[500px] w-[320px] h-fit lg:h-52 z-50 lg:mr-40 relative rounded-xl text-white lg:-mt-32 bg-white/20">
             <div className="relative ml-6 lg:ml-0 h-full">
@@ -52,7 +52,7 @@ export default function RootPage() {
 
       <div
         style={{
-          backgroundImage: `url('https://img.freepik.com/free-photo/painting-walls-pink_53876-63286.jpg?size=626&ext=jpg&ga=GA1.1.1135384207.1703006759&semt=sph')`,
+          backgroundImage: `url('https://res.cloudinary.com/dq4ceizj6/image/upload/v1704139247/digital_painting_agency/paving/IMG-20231231-WA0249_gob0cz.jpg')`,
           backgroundAttachment: "fixed",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -61,7 +61,10 @@ export default function RootPage() {
         className=" h-[470px] mt-10  lg:mt-0 lg:h-[900px] "
       >
         <div className="lg:h-[800px] items-center sticky top-32 gap-10 lg:flex justify-between  mb-72 p-10 lg:p-20">
-          <img src="https://img.freepik.com/free-photo/medium-shot-smiley-man-posing-with-helmet_23-2148920601.jpg?size=626&ext=jpg&ga=GA1.1.1135384207.1703006759&semt=ais" />
+          <img
+            className="w-[800px] object-cover object-center h-[470px] lg:h-[600px]"
+            src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704135842/digital_painting_agency/paving/IMG-20231231-WA0218_an8m2m.jpg"
+          />
           <div className="bg-white/60 p-8 h-fit w-full">
             <p className="border-b flex justify-between border-[#1C2335] pb-3 font-semibold  lg:text-2xl">
               Painting walls, roofs and everything paintable{" "}

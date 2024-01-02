@@ -18,11 +18,16 @@ export default function Navbar() {
       >
         <div className="flex items-center justify-between">
           <a
-            className="flex w-96 gap-2 items-center text-xl font-semibold text-white dark:text-gray-800"
+            className="flex lg:w-96 gap-3 items-center text-xl font-semibold text-white dark:text-gray-800"
             href="/"
           >
-            <MdRoofing className="font-bold text-5xl lg:text-6xl" />
-            <p className="text-white w-fit lg:text-3xl">Wellington's Works</p>
+            <img
+              src="/icons/logo.png"
+              className="font-bold bg-white rounded w-10  lg:w-16 text-5xl lg:text-6xl"
+            />
+            <p className="text-white text-lg lg:w-fit lg:text-2xl">
+              Digital Painting Agency
+            </p>
           </a>
           <Button
             className="ml-auto lg:hidden p-0 h-8 w-8 text-2xl flex justify-center bg-transparent   rounded-none text-white items-center"

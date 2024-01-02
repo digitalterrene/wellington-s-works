@@ -1,16 +1,27 @@
 "use client";
-import React from "react";
-import logo from "@/assets/brand/logo.png";
-import { Carousel } from "@material-tailwind/react";
+import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 export default function DynamicHeroImage() {
+  const services = [
+    "Brick Work",
+    "Plastering",
+    "Rhinolite",
+    "Paving",
+    "Painting",
+    "Tiling",
+    "Plumbing",
+    "Ceilings",
+    "Built-in Cupboards",
+    "Irrigation",
+    "Tennis Courts Revamp",
+  ];
   return (
-    <div className=" bg-blue-50 lg:px-32 lg:flex   items-center h-[560px] w-full ">
-      <div className="text-2xl p-10 lg:p-0   lg:text-6xl font-bold lg:w-1/2 text-[#345873] ">
+    <div className=" bg-blue-50  lg:flex   items-center hsed-[580px] w-full ">
+      <div className="text-2xl p-10     lg:text-6xl font-bold lg:w-1/2 text-[#345873] ">
         <p className="text-blue-600 lg:text-4xl mb-2">Experienced</p>{" "}
         <Typewriter
           options={{
-            strings: ["Building", "Plumbing", "Tiling", "Painting"],
+            strings: services,
             autoStart: true,
             loop: true,
           }}
@@ -38,32 +49,44 @@ export default function DynamicHeroImage() {
           </svg>
         </a>
       </div>
-      <div className=" lg:hidden grid grid-cols-3 bg-blue-600/50">
+      <div className=" lg:hidden grid grid-cols-3 ">
         <img
           className="h-60 object-cover object-center"
-          src="https://plus.unsplash.com/premium_photo-1680787305991-c8d3096624dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVpbGRlcnxlbnwwfHwwfHx8MA%3D%3D"
+          src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704135675/digital_painting_agency/paving/IMG-20231231-WA0015_slyiej.jpg"
         />
         <img
           className="h-60 object-cover object-center"
-          src="https://images.unsplash.com/photo-1523413307857-ef24c53571ae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGlsaW5nfGVufDB8fDB8fHww"
+          src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704135674/digital_painting_agency/paving/IMG-20231231-WA0011_h3roen.jpg"
         />
         <img
           className="h-60 object-cover object-center"
-          src="https://images.unsplash.com/photo-1542013936693-884638332954?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGx1bWJpbmd8ZW58MHx8MHx8fDA%3D"
+          src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704135777/digital_painting_agency/paving/IMG-20231231-WA0131_d01ou9.jpg"
         />
       </div>
-      <div className="  hidden lg:flex relative w-2/3 items-center  ">
-        <div class="p-5 sm:p-8">
+      <div className="    hidden lg:flex relative w-1/2 items-center  ">
+        <div class=" ">
           <div class="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
-            <img src="https://source.unsplash.com/bYuI23mnmDQ" />
-            <img src="https://source.unsplash.com/Nllx4R-2c3o" />
-            <img src="https://source.unsplash.com/lp40q07DIe0" />
-            <img src="https://source.unsplash.com/wfalq01jJuU" />
-            <img src="https://source.unsplash.com/rMHNK_skwwU" />
-            <img src="https://source.unsplash.com/WBMjuGpbrCQ" />
-            <img src="https://source.unsplash.com/nCUZ5BYBL_o" />
-            <img src="https://source.unsplash.com/3u4fzMQZhjc" />
-            <img src="https://source.unsplash.com/haOIqIPSwps" />
+            <img
+              className=""
+              src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704136643/digital_painting_agency/paving/IMG-20231231-WA0175_n3j78y.jpg"
+            />
+            <img src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704139069/digital_painting_agency/paving/IMG-20231231-WA0246_r5pu94.jpg" />
+            <img
+              className=""
+              src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704135992/digital_painting_agency/paving/IMG-20231231-WA0047_qe6x2e.jpg"
+            />
+            <img src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704136084/digital_painting_agency/paving/IMG-20231231-WA0066_psohql.jpg" />
+            <img src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704135777/digital_painting_agency/paving/IMG-20231231-WA0131_d01ou9.jpg" />
+            <img
+              className=""
+              src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704135842/digital_painting_agency/paving/IMG-20231231-WA0218_an8m2m.jpg"
+            />
+            <img src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704135675/digital_painting_agency/paving/IMG-20231231-WA0014_qewq8g.jpg" />
+            <img
+              className=""
+              src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704135695/digital_painting_agency/paving/IMG-20231231-WA0009_i1ii8d.jpg"
+            />
+            <img src="https://res.cloudinary.com/dq4ceizj6/image/upload/v1704136613/digital_painting_agency/paving/IMG-20231231-WA0164_qetku7.jpg" />
           </div>
         </div>
       </div>

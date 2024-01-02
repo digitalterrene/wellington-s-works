@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Statistics() {
   return (
-    <div className="bg-grdadient-to-t from-white to-blue-50">
+    <div className="bg-grdadient-to-t from-white bg-blue-50">
       {/* <!-- Features --> */}
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         {/* <!-- Grid --> */}
@@ -45,7 +45,7 @@ export default function Statistics() {
 
               {/* <!-- Stats --> */}
               <div>
-                <p className="text-3xl font-semibold text-blue-600">7+</p>
+                <p className="text-3xl font-semibold text-blue-600">~3+</p>
                 <p className="mt-1 text-gray-500"> Monthly Completed Jobs</p>
               </div>
               {/* <!-- End Stats --> */}

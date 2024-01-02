@@ -4,7 +4,7 @@ import Statistics from "../components/native/Statistics";
 import DynamicHeroImage from "@/components/native/DynamicHeroImage";
 export default function page() {
   return (
-    <div>
+    <div className="">
       <div className="   z-0">
         <DynamicHeroImage />
       </div>
